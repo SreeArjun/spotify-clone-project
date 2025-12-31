@@ -1,0 +1,11 @@
+@media screen and (max-width: 500px) {
+  .bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .songinfo {
+    position:inherit;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+  }
+}
